@@ -1,1 +1,0 @@
-mkdir Alliance_and_Codeshare_Partnership_Evaluation Alliance_Contribution_and_Revenue_Synergy_Analysis
