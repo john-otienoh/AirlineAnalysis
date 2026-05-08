@@ -187,7 +187,17 @@ AirlineAnalysis/
 
 ---
 
-## Tech Stack
+## Tech Stack and Architecture Notes
+
+### Recommended Data Architecture
+
+```
+Raw Data Layer          → Operational databases (PMS, revenue management, MRO systems)
+Integration Layer       → ETL pipelines / data warehouse (e.g., Snowflake, BigQuery)
+Analytics Layer         → BI dashboards (Tableau, Power BI) + Python/R analysis modules
+Scenario Engine         → Monte Carlo simulations and sensitivity analysis tools
+Output Layer            → Automated reports, alerts, and decision-support dashboards
+```
 
 ### Analytics
 - SQL
@@ -250,7 +260,7 @@ This portfolio simulates enterprise-grade airline analytics environments and dem
 
 ## Recommended Supporting Documents
 
-1.  BUSINESS_CONTEXT.md
+1. **BUSINESS_CONTEXT.md**
 
 Explain:
 
@@ -258,7 +268,7 @@ Explain:
 - Business impact
 - Strategic importance
 
-2.  DATA_DICTIONARY.md
+2. **DATA_DICTIONARY.md**
 
 Define:
 
@@ -268,7 +278,7 @@ Define:
 - Data types
 - Business definitions
 
-3.  KPI_FRAMEWORK.md
+3. **KPI_FRAMEWORK.md**
 
 Define:
 
@@ -277,7 +287,7 @@ Define:
 - Service KPIs
 - Fleet KPIs
 
-4.  ARCHITECTURE.md
+4. **ARCHITECTURE.md**
 
 Include:
 
@@ -286,7 +296,7 @@ Include:
 - ETL architecture
 - Pipeline orchestration
 
-5.  ROADMAP.md
+5. **ROADMAP.md**
 
 Define:
 
@@ -295,7 +305,7 @@ Define:
 - ML integration
 -Real-time streaming
 
-6.  REQUIREMENTS.md
+6. **REQUIREMENTS.md**
 
 List:
 
@@ -303,3 +313,5 @@ List:
 - SQL versions
 - Dashboard dependencies
 - Infrastructure requirements
+
+*This README is based on the book "How to Analyze an Airline Company" by Will Bachman, published by Umbrex (© 2024, ISBN: 978-1-961779-62-4). For consulting engagements, visit [www.umbrex.com](https://www.umbrex.com).*
