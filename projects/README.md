@@ -216,48 +216,7 @@ Downtime Cost    = Downtime Hours × Revenue Lost per Hour
 
 ---
 
-### 15 · On-Time Performance and Operational Reliability Analysis
 
-**Goal:** Evaluate the airline's ability to maintain punctuality and consistent operations. Identify delays, assess root causes, and develop strategies to improve reliability and customer satisfaction.
-
-**Data Required:**
-- Historical on-time performance data (departure and arrival times)
-- Delay and disruption causes (weather, maintenance, ATC, crew availability)
-- Aircraft turnaround times by route and airport
-- Flight schedule data (block times, buffer periods)
-- Competitor on-time performance benchmarks
-- Passenger compensation costs related to delays
-- Maintenance-related delay data
-
-**Key Formula:**
-```
-On-Time Performance = (Number of On-Time Flights / Total Flights) × 100
-```
-
-**Methodology:**
-1. Calculate On-Time Performance Metrics (by route, aircraft type, time of day)
-2. Identify Primary Delay Causes (maintenance, weather, crew scheduling)
-3. Assess Turnaround Times vs. scheduled times
-4. Analyze Maintenance-Related Delays
-5. Benchmark Against Industry and Competitors
-6. Evaluate Buffer Periods in Scheduling
-7. Scenario Testing for Delay Reduction Strategies
-
-**Output Format:**
-- On-Time Performance Summary
-- Delay Causes Report
-- Turnaround Time Analysis
-- Benchmarking Report
-- Scenario Analysis Results
-
-**Improvement Steps:**
-1. Increase ground staff efficiency to shorten turnaround times
-2. Implement predictive maintenance to address recurring mechanical issues
-3. Add strategic buffer times on chronically delayed routes
-4. Enhance crew scheduling flexibility for tight turnarounds
-5. Monitor weather and ATC patterns for proactive schedule adjustments
-
----
 
 ### 16 · Airport Resource Optimization and Cost Management Analysis
 
